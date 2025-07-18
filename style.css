@@ -324,6 +324,13 @@ footer {
 
 }
 
+.navBar{
+  position: fixed;
+  background: white;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .navLinksBlock #iconToggle {
   display: none;
 }
@@ -415,7 +422,7 @@ button {
 }
 
 .headingImg img {
-  width: 18rem;
+  width: auto;
   height: 4rem;
 }
 
@@ -586,6 +593,10 @@ span {
     font-size: 1.6rem;
   }
 
+  .hero img {
+    width: auto;
+    height: 3rem;
+  }
   .menuBox {
     text-align: start;
     margin: 0rem 3rem;
